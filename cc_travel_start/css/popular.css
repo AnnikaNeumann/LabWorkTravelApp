@@ -1,0 +1,57 @@
+.popular {
+    display:grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    justify-content: bottom;
+  }
+
+  .popular-header h2, .popular-header p {text-align: center;}
+  .popular-header h2 {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 30px;
+  }
+
+  .popular-bg-1, .popular-bg-2, .popular-bg-3, .popular-bg-4, .popular-bg-5, .popular-bg-6 {
+    width:325px;
+    height:200px;
+    padding:10px;
+    margin:15px 0;
+    color:white;
+    background-position: center;
+    display:flex;
+    align-items: flex-end;
+  }
+ .popular-dest-header {
+  font-size: 20px;
+  color:white;
+  margin-right:15px;
+  }
+  .popular-dest-country {
+    background-color: green;
+    padding:5px;
+  }
+
+  .popular-dest-country a {color:white}
+
+  .popular-bg-1 {
+    background-image: url(../img/destination/italy.png);
+  }
+  
+  .popular-bg-2 {
+    background-image: url(../img/destination/brazil.png);
+}
+  
+  .popular-bg-3 {
+    background-image: url(../img/destination/america.png);
+  }
+
+  .popular-bg-4 {
+    background-image: url(../img/destination/nepal.png);
+  }
+  
+  .popular-bg-5 {
+    background-image: url(../img/destination/maldives.png);
+}
+  
+  .popular-bg-6 {
+    background-image: url(../img/destination/indonesia.png);
+  }
