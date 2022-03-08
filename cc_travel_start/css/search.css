@@ -1,0 +1,11 @@
+.where-togo {
+    background-color: #000;
+    height:300px;
+    color:white;
+}
+
+.form-grid{
+
+    display:grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+}

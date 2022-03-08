@@ -19,7 +19,13 @@
     background-position: center;
     display:flex;
     align-items: flex-end;
+    border-radius: 10px;
   }
+
+  .align-top{
+    align-items: flex-start;
+  }
+
  .popular-dest-header {
   font-size: 20px;
   color:white;
