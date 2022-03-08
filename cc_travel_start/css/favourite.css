@@ -1,0 +1,46 @@
+.favourite {
+  display:grid;
+  grid-template-columns: 3fr 3fr 3fr;
+
+}
+
+.favourite h2 {
+  font-family: 'Parisienne';
+  font-size:25px;
+}
+
+.favourite p {
+  font-family: 'Cormorant Garamond';
+  font-size: 20px;
+}
+
+.favourite h3 {
+background-color: green;
+padding:10px;
+vertical-align: baseline;
+max-width:50%;
+}
+
+
+.favourite-bg-1, .favourite-bg-2, .favourite-bg-3 {
+  width:300px;
+  height:200px;
+  padding:10px;
+  color:white;
+  background-position: center;
+}
+
+.favourite-bg-1 {
+    background-image: url(../img/favourites/indonesia.png);
+
+  }
+  
+  .favourite-bg-2 {
+    background-image: url(../img/favourites/australia.png);
+  }
+  
+  .favourite-bg-3 {
+    background-image: url(../img/favourites/switzerland.png);
+  }
+  
+  
