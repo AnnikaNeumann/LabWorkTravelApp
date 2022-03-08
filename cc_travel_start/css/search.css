@@ -1,7 +1,14 @@
 .where-togo {
     background-color: #000;
-    height:300px;
+    height:150px;
     color:white;
+    padding:25px;
+    margin:20px;
+}
+
+.where-togo h2 {
+
+    font-size:25px;
 }
 
 .form-grid{
